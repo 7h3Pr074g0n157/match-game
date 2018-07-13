@@ -34,10 +34,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.card span::after{
-  backface-visibility: visible;
   font-size: 7rem;
   font-weight: 900;
   color: rgb(255,255,255);
