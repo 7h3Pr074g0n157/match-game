@@ -1,0 +1,48 @@
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+}
+
+.container{
+  margin: 5.25rem;
+}
+
+
+
+#instructions h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32,64,86);
+}
+
+#instructions h2{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(32,64,86);
+}
+
+#instructions p{
+  color: rgb(74,74,74);
+}
+
+.card{
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: rgb(32,64,86);
+  border: 4px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card span::after{
+  backface-visibility: visible;
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(255,255,255);
+}
+
+.card:hover{
+  cursor: pointer;
+}
